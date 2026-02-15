@@ -2,11 +2,11 @@
 #include <string>
 #include <FFGLSDK.h>
 
-class AddSubtract : public ffglqs::Plugin
+class RGBHSV : public ffglqs::Plugin
 {
 public:
-	AddSubtract();
-	~AddSubtract();
+    RGBHSV();
+	~RGBHSV();
 
 	//CFFGLPlugin
 	FFResult InitGL( const FFGLViewportStruct* vp ) override;
