@@ -32,7 +32,6 @@ void main()
 
 static const char _fragmentShaderCode[] = R"(#version 410 core
 uniform sampler2D InputTexture;
-uniform int Bits;
 
 in vec2 uv;
 
