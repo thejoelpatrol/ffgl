@@ -87,7 +87,7 @@ void main()
     //r = (r + left_color[0]) & 0xFF;
     
     //rgb = rgb + left_color + right_color + bottom_color + top_color;
-    rgb += left_color + right_color;
+    rgb += left_color + right_color + bottom_color + top_color;
     rgb &= ivec3(0xFF, 0xFF, 0xFF);
     
     //if (left_color[0] <= 100) {
