@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mixers", "mixers", "{98BAD375-4E77-4EDA-86CA-E77F213DCDA6}"
 EndProject
@@ -19,6 +19,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomThumbnail", "CustomThumbnail.vcxproj", "{01FC8291-A59A-4D36-9F2A-31E1D5998BD0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Events", "Events.vcxproj", "{B02CC7B5-D2B4-4DB0-8390-4D25BBA96181}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitShift", "BitShift.vcxproj", "{745936C3-58CD-4CAC-AE37-D45259BEDF72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGBHSV", "RGBHSV.vcxproj", "{6CEC8B92-33FA-4CC0-80B5-9F0D9423A59E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuadMirror", "QuadMirror.vcxproj", "{578FE09D-52E6-4C73-B392-DADDB9134E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +56,18 @@ Global
 		{B02CC7B5-D2B4-4DB0-8390-4D25BBA96181}.Debug|x64.Build.0 = Debug|x64
 		{B02CC7B5-D2B4-4DB0-8390-4D25BBA96181}.Release|x64.ActiveCfg = Release|x64
 		{B02CC7B5-D2B4-4DB0-8390-4D25BBA96181}.Release|x64.Build.0 = Release|x64
+		{745936C3-58CD-4CAC-AE37-D45259BEDF72}.Debug|x64.ActiveCfg = Debug|x64
+		{745936C3-58CD-4CAC-AE37-D45259BEDF72}.Debug|x64.Build.0 = Debug|x64
+		{745936C3-58CD-4CAC-AE37-D45259BEDF72}.Release|x64.ActiveCfg = Release|x64
+		{745936C3-58CD-4CAC-AE37-D45259BEDF72}.Release|x64.Build.0 = Release|x64
+		{6CEC8B92-33FA-4CC0-80B5-9F0D9423A59E}.Debug|x64.ActiveCfg = Debug|x64
+		{6CEC8B92-33FA-4CC0-80B5-9F0D9423A59E}.Debug|x64.Build.0 = Debug|x64
+		{6CEC8B92-33FA-4CC0-80B5-9F0D9423A59E}.Release|x64.ActiveCfg = Release|x64
+		{6CEC8B92-33FA-4CC0-80B5-9F0D9423A59E}.Release|x64.Build.0 = Release|x64
+		{578FE09D-52E6-4C73-B392-DADDB9134E77}.Debug|x64.ActiveCfg = Debug|x64
+		{578FE09D-52E6-4C73-B392-DADDB9134E77}.Debug|x64.Build.0 = Debug|x64
+		{578FE09D-52E6-4C73-B392-DADDB9134E77}.Release|x64.ActiveCfg = Release|x64
+		{578FE09D-52E6-4C73-B392-DADDB9134E77}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
